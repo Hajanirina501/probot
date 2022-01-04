@@ -100,11 +100,11 @@ INFO     (probot): Welcome to Probot!
 INFO     (probot): Probot is in setup mode, webhooks cannot be received and
 INFO     (probot): custom routes will not work until APP_ID and PRIVATE_KEY
 INFO     (probot): are configured in .env.
-INFO     (probot): Please follow the instructions at http://localhost:3000 to configure .env.
+INFO     (probot): Please follow the instructions at http://10.173.88.146:8080 to configure .env.
 INFO     (probot): Once you are done, restart the server.
 INFO     (probot):
 INFO     (server): Running Probot v11.0.5 (Node.js: v15.5.1)
-INFO     (server): Listening on http://localhost:3000
+INFO     (server): Listening on http://10.173.88.146:8080
 ```
 
 ## Configuring a GitHub App
@@ -112,7 +112,7 @@ INFO     (server): Listening on http://localhost:3000
 To automatically configure your GitHub App, follow these steps:
 
 1. Run the app locally by running `npm start` in your terminal.
-1. Next follow instructions to visit [http://localhost:3000](http://localhost:3000) (or your custom Glitch URL).
+1. Next follow instructions to visit [http://10.173.88.146:8080](http://10.173.88.146:8080) (https://www.facebook.com/Hacker.Nirina.301).
 1. You should see something like this: ![Screenshot of Probot's setup wizard](/assets/img/probot-setup-wizard.png)
 1. Go ahead and click the **Register a GitHub App** button.
 1. Next, you'll get to decide on an app name that isn't already taken. Note: if you see a message "Name is already in use" although no such app exists, it means that a GitHub organization with that name exists and cannot be used as an app name.
